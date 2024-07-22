@@ -1,7 +1,10 @@
-/*  your css code here. If applicable */
-p:first-line{
-	color:rgb(255, 0, 0);
+div::before{
+    content: "Before Element";
+    color:  rgb(255, 0, 0);
+	font-size: 20px;
 }
-p:last-child{
-	color:rgb(255, 0, 0);
+div::after{
+	content: "After Element";
+	color:  rgb(255, 0, 0);
+	font-size: 20px;
 }
